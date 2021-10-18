@@ -61,3 +61,18 @@
 2021/10/18 06:48:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
 2021/10/18 06:48:08 [notice] 1#1: start worker processes
 2021/10/18 06:48:08 [notice] 1#1: start worker process 24
+2021/10/18 08:54:01 [error] 24#24: *724 client intended to send too large body: 2662534 bytes, client: 49.237.23.103, server: groupset.org, request: "POST /app.php HTTP/1.1", host: "www.groupset.org", referrer: "http://www.groupset.org/main.php"
+2021/10/18 09:29:57 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/10/18 09:29:57 [notice] 24#24: gracefully shutting down
+2021/10/18 09:29:57 [notice] 24#24: exiting
+2021/10/18 09:29:57 [notice] 24#24: exit
+2021/10/18 09:29:57 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/10/18 09:29:57 [notice] 1#1: worker process 24 exited with code 0
+2021/10/18 09:29:57 [notice] 1#1: exit
+2021/10/18 09:29:59 [notice] 1#1: using the "epoll" event method
+2021/10/18 09:29:59 [notice] 1#1: nginx/1.21.3
+2021/10/18 09:29:59 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/10/18 09:29:59 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/10/18 09:29:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/10/18 09:29:59 [notice] 1#1: start worker processes
+2021/10/18 09:29:59 [notice] 1#1: start worker process 24
