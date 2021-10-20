@@ -245,7 +245,7 @@ endif;
             page.chart = $("#chart").kendoChart({
                 theme: 'material',
                 title: {
-                    text: "<?=$_SESSION['setting']['lang']=='en'?'A graph showing the proportion of redstone\n selection in each assignment.':'กราฟแสดงสัดส่วนของการเลือกจับกลุ่มในแต่ละการมอบหมายงาน';?>"
+                    text: "<?=$_SESSION['setting']['lang']=='en'?'A graph showing the proportion\n  of redstone\n selection in each assignment.':'กราฟแสดงสัดส่วนของการเลือกจับกลุ่ม\n ในแต่ละการมอบหมายงาน';?>"
                 },
                 legend: {
                     position: "top"
