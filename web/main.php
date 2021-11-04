@@ -500,9 +500,9 @@ if ((empty($_SESSION['user']['data'][0]['mbti']) || $_SESSION['user']['data'][0]
                 <div class="divTableBody">
                     <div class="divTableRow">
                         <div class="divTableCell" style="width: 10%;vertical-align: middle;">
-                            <div id="btn-photo" class="material-icons textshadow"
+                            <!-- <div id="btn-photo" class="material-icons textshadow"
                                 style="font-size: 32px;color: #fff;cursor:pointer;">photo_camera
-                            </div>
+                            </div> -->
                             <input name="photo" id="photo" type="file" accept="image/*" capture
                                 style="display:none"><span class="name"></span>
                         </div>
