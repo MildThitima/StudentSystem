@@ -416,8 +416,8 @@ if (isset($_POST) && !empty($_POST)):
                                 <div class="chat-box-tray">
                                     <input type="text" placeholder="Type your message here..." id="chat_input" style="width:100%">
                                     <span class="name"></span>
-                                    <i class="material-icons" id="btn-photo" style="cursor:pointer" >photo_camera</i>
-                                    <input  name="photo" id="photo" type="file" accept="image/*" capture style="display:none">
+                                   <!-- <i class="material-icons" id="btn-photo" style="cursor:pointer" >photo_camera</i> -->
+                                    <!-- <input  name="photo" id="photo" type="file" accept="image/*" capture style="display:none"> -->
                                     <i class="material-icons" id="btn-send" style="cursor:pointer">send</i>
                                 </div>
                             </div>
@@ -584,7 +584,7 @@ if (isset($_POST) && !empty($_POST)):
                 ],
             });
         }
-        page.prototype.renderMessage = function(obj, who) {
+         page.prototype.renderMessage = function(obj, who) {
             if (who == 'him') {
                 var html='';
                 if(page.userID!=page.lastUserID){
