@@ -6,7 +6,7 @@ session_start();
 
 <head>
     <meta charset="utf-8" />
-    <title>GroupSet System </title>
+    <title>GroupSet</title>
     <link rel="stylesheet" href="kendoui/styles/kendo.common.min.css" />
     <link rel="stylesheet" href="kendoui/styles/kendo.default-v2.min.css" />
     <link rel="stylesheet" href="kendoui/styles/kendo.mobile.all.min.css" />
@@ -32,7 +32,7 @@ session_start();
         <div data-role="content" style="display: flex;align-items: center;justify-content: center;">
             <main class="form-signin" style="width: 100%;max-width: 400px;padding: 15px;margin: auto;text-align: center;">
             <img style="margin-bottom: 1.5rem!important;" src="images/studentGroupingLogo.png" alt="" width="72" height="72">
-            <h1 class="h3" style="margin-bottom: 1rem!important;">Student Grouping System</h1>
+            <h1 class="h3" style="margin-bottom: 1rem!important;">GroupSet System</h1>
             <h1 class="h1" style="margin-bottom: 1rem!important;">Student\Teacher Login</h1>
                 <form id="login_form">
                     <div class="row">
