@@ -44,7 +44,7 @@ endif;
     <meta name="description" content="Developer 3Spines">
     <meta name="author" content="3Spine">
     <meta name="generator" content="Hugo 0.80.0">
-    <title>Student Grouping System | Sign in</title>
+    <title>GroupSet Admin | Sign in</title>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../kendoui/styles/kendo.common.min.css" rel="stylesheet" />
     <link href="../kendoui/styles/kendo.common-material.min.css" rel="stylesheet" />
@@ -111,7 +111,7 @@ endif;
     <main class="form-signin" >
         <form action="index.php" method="post" class="form-signin" id="form-signin" role="form">
             <img class="mb-4" src="../images/studentGroupingLogo.png" alt="" width="72" height="72">
-            <h1 class="h3 mb-3 fw-normal">Student Grouping System</h1>
+            <h1 class="h3 mb-3 fw-normal">GroupSet System</h1>
             <h1 class="h3 mb-3 fw-normal">Admin Login</h1>
             <label for="inputEmail" class="visually-hidden">Email address</label>
             <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email address"
