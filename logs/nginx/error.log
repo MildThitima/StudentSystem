@@ -86,3 +86,174 @@
 2021/10/18 10:50:28 [notice] 1#1: start worker process 34
 2021/10/18 10:50:28 [notice] 1#1: start worker process 35
 2021/10/18 10:50:28 [notice] 1#1: start worker process 36
+2021/11/08 06:04:12 [notice] 1#1: using the "epoll" event method
+2021/11/08 06:04:12 [notice] 1#1: nginx/1.21.3
+2021/11/08 06:04:12 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/11/08 06:04:12 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/11/08 06:04:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/08 06:04:12 [notice] 1#1: start worker processes
+2021/11/08 06:04:12 [notice] 1#1: start worker process 32
+2021/11/08 06:33:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/08 06:33:36 [notice] 32#32: gracefully shutting down
+2021/11/08 06:33:36 [notice] 32#32: exiting
+2021/11/08 06:33:36 [notice] 32#32: exit
+2021/11/08 06:33:36 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/11/08 06:33:36 [notice] 1#1: worker process 32 exited with code 0
+2021/11/08 06:33:36 [notice] 1#1: exit
+2021/11/08 06:33:42 [notice] 1#1: using the "epoll" event method
+2021/11/08 06:33:42 [notice] 1#1: nginx/1.21.3
+2021/11/08 06:33:42 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/11/08 06:33:42 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/11/08 06:33:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/08 06:33:42 [notice] 1#1: start worker processes
+2021/11/08 06:33:42 [notice] 1#1: start worker process 24
+2021/11/08 06:49:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/08 06:49:01 [notice] 24#24: gracefully shutting down
+2021/11/08 06:49:01 [notice] 24#24: exiting
+2021/11/08 06:49:01 [notice] 24#24: exit
+2021/11/08 06:49:01 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/11/08 06:49:01 [notice] 1#1: worker process 24 exited with code 0
+2021/11/08 06:49:01 [notice] 1#1: exit
+2021/11/08 06:49:14 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:49:15 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:49:16 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:49:17 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:49:19 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:49:21 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:49:24 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:49:31 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:51:18 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:51:19 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:51:20 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:51:21 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:51:23 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:51:25 [emerg] 1#1: cannot load certificate "/etc/letsencrypt/live/groupset.org/fullchain.pem": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/letsencrypt/live/groupset.org/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/11/08 06:55:39 [emerg] 1#1: unknown "realdir" variable
+2021/11/08 06:55:40 [emerg] 1#1: unknown "realdir" variable
+2021/11/08 06:55:41 [emerg] 1#1: unknown "realdir" variable
+2021/11/08 06:55:42 [emerg] 1#1: unknown "realdir" variable
+2021/11/08 06:55:43 [emerg] 1#1: unknown "realdir" variable
+2021/11/08 06:55:45 [emerg] 1#1: unknown "realdir" variable
+2021/11/08 06:57:00 [notice] 1#1: using the "epoll" event method
+2021/11/08 06:57:00 [notice] 1#1: nginx/1.21.3
+2021/11/08 06:57:00 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/11/08 06:57:00 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/11/08 06:57:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/08 06:57:00 [notice] 1#1: start worker processes
+2021/11/08 06:57:00 [notice] 1#1: start worker process 24
+2021/11/08 06:57:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/08 06:57:27 [notice] 24#24: gracefully shutting down
+2021/11/08 07:01:08 [notice] 1#1: using the "epoll" event method
+2021/11/08 07:01:08 [notice] 1#1: nginx/1.21.3
+2021/11/08 07:01:08 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/11/08 07:01:08 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/11/08 07:01:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/08 07:01:08 [notice] 1#1: start worker processes
+2021/11/08 07:01:08 [notice] 1#1: start worker process 24
+2021/11/08 07:40:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/08 07:40:23 [notice] 24#24: gracefully shutting down
+2021/11/08 07:40:23 [notice] 24#24: exiting
+2021/11/08 07:40:23 [notice] 24#24: exit
+2021/11/08 07:40:23 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/11/08 07:40:23 [notice] 1#1: worker process 24 exited with code 0
+2021/11/08 07:40:23 [notice] 1#1: exit
+2021/11/08 07:40:33 [notice] 1#1: using the "epoll" event method
+2021/11/08 07:40:33 [notice] 1#1: nginx/1.21.3
+2021/11/08 07:40:33 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/11/08 07:40:33 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/11/08 07:40:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/08 07:40:33 [notice] 1#1: start worker processes
+2021/11/08 07:40:33 [notice] 1#1: start worker process 24
+2021/11/08 08:39:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/08 08:39:55 [notice] 24#24: gracefully shutting down
+2021/11/08 08:39:55 [notice] 24#24: exiting
+2021/11/08 08:39:55 [notice] 24#24: exit
+2021/11/08 08:39:55 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/11/08 08:39:55 [notice] 1#1: worker process 24 exited with code 0
+2021/11/08 08:39:55 [notice] 1#1: exit
+2021/11/08 08:39:58 [emerg] 1#1: invalid value "=" in /etc/nginx/conf.d/groupset.conf:41
+2021/11/08 08:40:00 [emerg] 1#1: invalid value "=" in /etc/nginx/conf.d/groupset.conf:41
+2021/11/08 08:40:00 [emerg] 1#1: invalid value "=" in /etc/nginx/conf.d/groupset.conf:41
+2021/11/08 08:40:01 [emerg] 1#1: invalid value "=" in /etc/nginx/conf.d/groupset.conf:41
+2021/11/08 08:40:03 [emerg] 1#1: invalid value "=" in /etc/nginx/conf.d/groupset.conf:41
+2021/11/08 08:40:05 [emerg] 1#1: invalid value "=" in /etc/nginx/conf.d/groupset.conf:41
+2021/11/08 08:40:08 [emerg] 1#1: invalid value "=" in /etc/nginx/conf.d/groupset.conf:41
+2021/11/08 08:40:15 [emerg] 1#1: invalid value "=" in /etc/nginx/conf.d/groupset.conf:41
+2021/11/08 08:40:29 [emerg] 1#1: invalid value "=" in /etc/nginx/conf.d/groupset.conf:41
+2021/11/08 08:40:54 [notice] 1#1: using the "epoll" event method
+2021/11/08 08:40:54 [notice] 1#1: nginx/1.21.3
+2021/11/08 08:40:54 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/11/08 08:40:54 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/11/08 08:40:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/08 08:40:54 [notice] 1#1: start worker processes
+2021/11/08 08:40:54 [notice] 1#1: start worker process 24
+2021/11/08 08:41:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/08 08:41:26 [notice] 24#24: gracefully shutting down
+2021/11/08 08:41:26 [notice] 24#24: exiting
+2021/11/08 08:41:26 [notice] 24#24: exit
+2021/11/08 08:41:26 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/11/08 08:41:26 [notice] 1#1: worker process 24 exited with code 0
+2021/11/08 08:41:26 [notice] 1#1: exit
+2021/11/08 08:41:29 [notice] 1#1: using the "epoll" event method
+2021/11/08 08:41:29 [notice] 1#1: nginx/1.21.3
+2021/11/08 08:41:29 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/11/08 08:41:29 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/11/08 08:41:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/08 08:41:29 [notice] 1#1: start worker processes
+2021/11/08 08:41:29 [notice] 1#1: start worker process 24
+2021/11/08 09:22:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/08 09:22:50 [notice] 24#24: gracefully shutting down
+2021/11/08 09:22:50 [notice] 24#24: exiting
+2021/11/08 09:22:50 [notice] 24#24: exit
+2021/11/08 09:22:50 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/11/08 09:22:50 [notice] 1#1: worker process 24 exited with code 0
+2021/11/08 09:22:50 [notice] 1#1: exit
+2021/11/08 09:22:59 [notice] 1#1: using the "epoll" event method
+2021/11/08 09:22:59 [notice] 1#1: nginx/1.21.3
+2021/11/08 09:22:59 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/11/08 09:22:59 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/11/08 09:22:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/08 09:22:59 [notice] 1#1: start worker processes
+2021/11/08 09:22:59 [notice] 1#1: start worker process 32
+2021/11/08 09:27:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/08 09:27:37 [notice] 32#32: gracefully shutting down
+2021/11/08 09:27:37 [notice] 32#32: exiting
+2021/11/08 09:27:37 [notice] 32#32: exit
+2021/11/08 09:27:37 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/11/08 09:27:37 [notice] 1#1: worker process 32 exited with code 0
+2021/11/08 09:27:37 [notice] 1#1: exit
+2021/11/08 09:28:44 [notice] 1#1: using the "epoll" event method
+2021/11/08 09:28:44 [notice] 1#1: nginx/1.21.3
+2021/11/08 09:28:44 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/11/08 09:28:44 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/11/08 09:28:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/08 09:28:44 [notice] 1#1: start worker processes
+2021/11/08 09:28:44 [notice] 1#1: start worker process 24
+2021/11/17 08:20:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/17 08:20:13 [notice] 24#24: gracefully shutting down
+2021/11/17 08:20:13 [notice] 24#24: exiting
+2021/11/17 08:20:13 [notice] 24#24: exit
+2021/11/17 08:20:13 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2021/11/17 08:20:13 [notice] 1#1: worker process 24 exited with code 0
+2021/11/17 08:20:13 [notice] 1#1: exit
+2021/11/17 08:20:24 [notice] 1#1: using the "epoll" event method
+2021/11/17 08:20:24 [notice] 1#1: nginx/1.21.3
+2021/11/17 08:20:24 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/11/17 08:20:24 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/11/17 08:20:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/17 08:20:24 [notice] 1#1: start worker processes
+2021/11/17 08:20:24 [notice] 1#1: start worker process 32
+2021/11/17 08:20:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/11/17 08:20:26 [notice] 32#32: gracefully shutting down
+2021/11/17 08:20:26 [notice] 32#32: exiting
+2021/11/17 08:20:26 [notice] 32#32: exit
+2021/11/17 08:20:26 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/11/17 08:20:26 [notice] 1#1: worker process 32 exited with code 0
+2021/11/17 08:20:26 [notice] 1#1: exit
+2021/11/17 08:20:32 [notice] 1#1: using the "epoll" event method
+2021/11/17 08:20:32 [notice] 1#1: nginx/1.21.3
+2021/11/17 08:20:32 [notice] 1#1: built by gcc 10.3.1 20210424 (Alpine 10.3.1_git20210424) 
+2021/11/17 08:20:32 [notice] 1#1: OS: Linux 5.4.0-1045-aws
+2021/11/17 08:20:32 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/11/17 08:20:32 [notice] 1#1: start worker processes
+2021/11/17 08:20:32 [notice] 1#1: start worker process 24

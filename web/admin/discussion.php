@@ -694,7 +694,8 @@ if (isset($_POST) && !empty($_POST)):
         }
         page.prototype.postMessageWithAttach=function(assignID,groupNum,userID,message,photo){
             var myFormData = new FormData();
-            myFormData.append('photo', $("#photo")[0].files[0]);
+           // myFormData.append('photo', $("#photo")[0].files[0]);
+	    
             myFormData.append('mode', 'post_message');
             myFormData.append('assignID', assignID);
             myFormData.append('groupNum', groupNum);
